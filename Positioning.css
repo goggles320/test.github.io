@@ -1,0 +1,41 @@
+/*Absolute Position*/
+
+#fixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color:lightblue;
+    padding: 20px 10px 20px 10px;
+     
+
+}
+
+.wrapper{
+    width: 500px;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+#relative{
+    position: relative;
+    background-color: orange;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+#absolute{
+    position: absolute;
+    background-color: green;
+    right: 213px;
+    bottom: 150px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+#content2{
+    text-align: center;
+    width: 500px;
+    margin: 0px auto;
+}
